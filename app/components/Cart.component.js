@@ -17,7 +17,8 @@ export class Cart extends Component {
 	  };
 	}
 
-	componentWillReceiveProps(nextProps) {
+	
+  componentWillReceiveProps(nextProps) {
 	    if (nextProps.cartItems !== this.props.cartItems) {
 	    	this.startAnimation();
 	    }
